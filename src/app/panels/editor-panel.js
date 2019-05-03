@@ -181,9 +181,9 @@ class EditorPanel {
     self._view.content = yo`
       <div class=${css.content}>
         ${self.tabProxy.renderTabsbar()}
-        ${self._components.contextView.render()}
         ${self._view.editor}
         ${self._view.mainPanel}
+        ${self._components.contextView.render()}
         ${self._view.terminal}
       </div>
     `
